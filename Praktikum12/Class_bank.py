@@ -30,8 +30,8 @@ class Bank:
     '\nSaldo\t\t: Rp. ',format(self.saldo, ','), '\n--------------------------'
     )
         
-# nasabah1 = Bank("1001", "Aldi", 50000)
-# nasabah2 = Bank("1002", "Edo", 70000)
+nasabah1 = Bank("1001", "Aldi", 50000)
+nasabah2 = Bank("1002", "Edo", 70000)
 
-# nasabah1.nabung(4000)
-# print(nasabah2.norek)
+nasabah1.nabung(4000)
+print(nasabah2.norek)
